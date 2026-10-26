@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1. Portafolio Básico</title>
+    
+    <!-- Fuente de Google Fonts (Roboto) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Íconos de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Hoja de estilos CSS propia -->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+<body>
+    <!-- Encabezado con logotipo y menú de navegación -->
+    <header id="encabezado">
+        <figure id="logotipo">
+    <img src="img/Logo.jpg" alt="Logotipo personal">
+</figure>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="#encabezado">Principal</a></li>
+                <li><a href="#acercademi">Acerca de mí</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+   <!-- Sección de Portada -->
+    <section id="portada">
+        <figure id="imgportada">
+            <img src="img/Cover.svg" alt="Portada principal">
+        </figure>
+    </section>
+
+    <!-- Sección Acerca de mí -->
+    <section id="acercademi">
+       <div id="textoacercademi">
+    <h1>Acerca de mí</h1>
+    <p>En esta sección conocerás más sobre mi pasión por la fotografía de retrato, mi trabajo visual y las habilidades que he desarrollado.</p>     
+</div>
+
+        <article id="perfil">
+            <figure id="imgperfil">
+    <img src="img/Profile.jpg" alt="Foto de perfil">
+</figure>
+
+           <div id="presentacion">
+    <h2>Presentación</h2>
+    <p>¡Hola! Soy Ximena, estudiante apasionado/a por la fotografía de retrato. Me enfoco en capturar la esencia de las personas, jugando con la luz natural y las composiciones. Te invito a explorar mis trabajos.</p>
+    <h2>Mis habilidades y conocimientos</h2> 
+</div>
+
+           <div id="habilidadesyconocimientos">
+
+    <!-- Tarjeta 1: Fotografía -->
+    <div class="habilidades">
+        <h3>Fotografía</h3>
+        <ul>
+            <li>Retrato en exterior e interior</li>
+            <li>Manejo de cámara profesional</li>
+            <li>Manejo de luz natural</li>
+            <li>Composición y encuadre</li>
+        </ul>
+    </div>
+
+    <!-- Tarjeta 2: Edición / Software -->
+    <div class="habilidades">
+        <h3>Edición / Software</h3>
+        <ul>
+            <li>Adobe Lightroom</li>
+            <li>Adobe Photoshop</li>
+            <li>Retoque digital de piel</li>
+            <li>Corrección de color</li>
+        </ul>
+    </div>
+
+    <!-- Tarjeta 3: Creativas y Web -->
+    <div class="habilidades">
+        <h3>Blandas y Web</h3>
+        <ul>
+            <li>Dirección de modelos / personas</li>
+            <li>Atención al detalle</li>
+            <li>Creatividad visual</li>
+            <li>HTML / CSS básico</li>
+        </ul>
+    </div>
+
+</div>
+        </article>
+
+        <div id="descarga">
+    <p>Puedes descargar mi currículum en formato PDF <a href="curriculum.pdf" download class="btn-descarga">aquí <i class="fa-solid fa-file-pdf"></i></a>.</p>
+</div>
+    </section>
+
+    <!-- Sección de Portafolio (Mínimo 8 trabajos) -->
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <p>Aquí encontrarás muestras de mi trabajo</p>
+
+        <!-- Sección de Portafolio -->
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <p>Aquí encontrarás muestras de mi trabajo</p>
+
+        <!-- AQUÍ PEGAS EL CÓDIGO -->
+        <article id="trabajos">
+
+            <!-- Tarjeta 1 -> Conecta a proyecto1.html -->
+            <div class="tarjeta-trabajo">
+                <a href="proyecto1.html">
+                    <figure><img src="img/foto1.jpg" alt="Retrato infantil temático"/></figure>
+                    <h3>Retrato Infantil</h3>
+                </a>
+                <p>Sesión fotográfica temática con vestido de princesa.</p>
+                <a href="proyecto1.html" class="btn-descarga">Ver detalles →</a>
+            </div>
+
+            <!-- Tarjeta 2 -> Conecta a proyecto2.html -->
+            <div class="tarjeta-trabajo">
+                <a href="proyecto2.html">
+                    <figure><img src="img/foto2.jpg" alt="Fotografía infantil en escenografía"/></figure>
+                    <h3>Fotografía de Cuento</h3>
+                </a>
+                <p>Retrato en exterior con decoración y accesorios.</p>
+                <a href="proyecto2.html" class="btn-descarga">Ver detalles →</a>
+            </div>
+
+            <!-- Tarjeta 3 -> Conecta a proyecto3.html -->
+            <div class="tarjeta-trabajo">
+                <a href="proyecto3.html">
+                    <figure><img src="img/foto3.jpg" alt="Retrato al aire libre con chamarra de mezclilla"/></figure>
+                    <h3>Retrato Urbano</h3>
+                </a>
+                <p>Sesión al aire libre en parque con luz natural.</p>
+                <a href="proyecto3.html" class="btn-descarga">Ver detalles →</a>
+            </div>
+
+            <!-- Tarjeta 4 -> Conecta a proyecto4.html -->
+            <div class="tarjeta-trabajo">
+                <a href="proyecto4.html">
+                    <figure><img src="img/foto4.jpg" alt="Retrato editorial apoyada en tronco"/></figure>
+                    <h3>Retrato Editorial</h3>
+                </a>
+                <p>Fotografía en entorno natural con encuadre lateral.</p>
+                <a href="proyecto4.html" class="btn-descarga">Ver detalles →</a>
+            </div>
+
+            <!-- Las tarjetas 5, 6, 7 y 8 las dejas igual que en la Práctica 1 -->
+
+        </article>
+            <div class="tarjeta-trabajo">
+                <figure>
+                    <img src="img/foto5.jpg" alt="Retrato de campo con ganado"/>
+                </figure>
+                <h3>Fotografía de Campo</h3>
+                <p>Retrato conceptual en exterior con ganado.</p>
+            </div>
+
+            <div class="tarjeta-trabajo">
+                <figure>
+                    <img src="img/foto6.jpg" alt="Retrato al atardecer en el parque"/>
+                </figure>
+                <h3>Sesión de Retrato</h3>
+                <p>Fotografía de retrato con iluminación de atardecer.</p>
+            </div>
+
+            <div class="tarjeta-trabajo">
+                <figure>
+                    <img src="img/foto7.jpg" alt="Retrato suave apoyada en árbol"/>
+                </figure>
+                <h3>Retrato con Luz Natural</h3>
+                <p>Enfoque cercano y tono cálido en parque.</p>
+            </div>
+
+            <div class="tarjeta-trabajo">
+                <figure>
+                    <img src="img/foto8.jpg" alt="Retrato ranchero en corral"/>
+                </figure>
+                <h3>Retrato Ranchero</h3>
+                <p>Fotografía temática en corral con vestimenta tradicional.</p>
+            </div>
+
+        </article>
+    </section>
+    </section>
+
+   <!-- Pie de página con contacto y redes sociales -->
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p>Contacto: <a href="mailto:20230243@ulsavictoria.edu.mx" style="color: #ffffff; text-decoration: underline;">20230243@ulsavictoria.edu.mx</a></p>
+        <div class="redes-sociales">
+            <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
